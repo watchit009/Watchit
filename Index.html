@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watchit - Movie Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Watchit</h1>
+        <input type="text" id="searchBox" placeholder="Search movies...">
+    </header>
+
+    <main>
+        <div class="filter">
+            <label>Filter by rating:</label>
+            <select id="ratingFilter">
+                <option value="all">All</option>
+                <option value="8">8+</option>
+                <option value="7">7+</option>
+                <option value="6">6+</option>
+            </select>
+        </div>
+        <div id="movieList" class="movies"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
