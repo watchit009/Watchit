@@ -1,6 +1,2 @@
-git init  
-git add .  
-git commit -m "Initial commit"  
-git branch -M main  
-git remote add origin https://github.com/watchit/Watchit.git  
-git push -u origin main  
+git clone https://github.com/watchit/watchit.git
+cd watchit
